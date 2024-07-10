@@ -1,30 +1,28 @@
 /* 
-* Copyright 2007-2011, Shi shaofei (vivid.tju.dlut@gmail.com)
-
-* This program is distributed in the hope that it will be useful
-* for pepole who want to konw the  compiler's work,such as Lex-
-* ical analysis,grammatical analysis,semantic analysis and stack 
-* virtual machine's execution. 
-
-* For education and personal research, you can free redistribute it 
-* and/or modify it.The only requirement is that you must be marked
-* my work and indicate the source of this software,to use this 
-* program's codes,You'd better send a email to me.
-
-* This file can't  be modify and must be include in program.
-
-* Now,Enjoy the fun of the compiler world£¡
-																											01.02.2011
-
-* ±¾Èí¼şµÄÄ¿µÄÊÇ¶ÔÄÇĞ©¶Ô±àÒëÆ÷´Ê·¨·ÖÎö¡¢Óï·¨·ÖÎö¡¢ÓïÒå·ÖÎöÒÔ¼°Õ»
-* Ê½ĞéÄâ»úÖ´ĞĞ¹ı³Ì¸ĞĞËÈ¤µÄÈËÌá¹©°ïÖú»òÕß½è¼ø¡£
-
-* ¶ÔÓÚ¶ÔÓÚ½ÌÓı¼°¸öÈËÑĞ¾¿Õß£¬Äã¿ÉÒÔÖØĞÂ·¢²¼»òĞŞ¸Ä±¾Èí¼ş£¬Î¨Ò»ÒªÇó
-* Ìá¼°ÎÒÒÔ¼°ÎÒµÄ¹¤×÷£¬²¢¸ø³ö³ÌĞòµÄÀ´Ô´
-
-* ±¾ÎÄ²»¿ÉË½×ÔĞŞ¸ÄÇÒ±ØĞë°üº¬ÓÚ³ÌĞòÖĞ¡£
-
-* ÏÖÔÚÏíÊÜ±àÒëÊÀ½çµÄÀÖÈ¤°É£¡
-
-																											2011.01.02
-*/
+ * Copyright 2007-2011  (vivid.tju.dlut@gmail.com)
+ *
+ * This  project  is distributed in the hope that it will be useful
+ * for people who want to know the compiler's work, such as lexical
+ * analysis, grammatical analysis, semantic analysis, and stack 
+ * virtual machine's execution.
+ *
+ * For educational and personal research purposes, you can freely redistribute 
+ * and/or modify it. The only requirement is that you must acknowledge my work 
+ * and indicate the source of this software. If you use this program's code, 
+ * it is recommended to send an email to me.
+ *
+ * This file cannot be modified and must be included in the program.
+ *
+ * Now, enjoy the fun of the compiler world!
+ *                                                                               01.02.2011
+ *
+ * æœ¬é¡¹ç›®çš„ç›®çš„æ˜¯å¯¹é‚£äº›å¯¹ç¼–è¯‘å™¨è¯æ³•åˆ†æã€è¯­æ³•åˆ†æã€è¯­ä¹‰åˆ†æä»¥åŠæ ˆ
+ * å¼è™šæ‹Ÿæœºæ‰§è¡Œè¿‡ç¨‹æ„Ÿå…´è¶£çš„äººæä¾›å¸®åŠ©æˆ–è€…å€Ÿé‰´ã€‚
+ *
+ * å¯¹äºæ•™è‚²åŠä¸ªäººç ”ç©¶è€…ï¼Œä½ å¯ä»¥é‡æ–°å‘å¸ƒæˆ–ä¿®æ”¹æœ¬è½¯ä»¶ï¼Œå”¯ä¸€è¦æ±‚æ˜¯æåŠæˆ‘ä»¥åŠæˆ‘çš„å·¥ä½œï¼Œå¹¶ç»™å‡ºç¨‹åºçš„æ¥æºã€‚
+ *
+ * æœ¬æ–‡ä¸å¯ç§è‡ªä¿®æ”¹ä¸”å¿…é¡»åŒ…å«äºç¨‹åºä¸­ã€‚
+ *
+ * ç°åœ¨äº«å—ç¼–è¯‘ä¸–ç•Œçš„ä¹è¶£å§ï¼
+ *                                                                               2011.01.02
+ */

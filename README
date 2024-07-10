@@ -1,34 +1,35 @@
-* Before use this  program, please read  the program' CPYYING first.
+Before using this program, please read the program's COPYING file first.
 
-* This program is distributed in the hope that it will be useful
-* for pepole who want to konw the  compiler's work,such as Lex-
-* ical analysis,grammatical analysis,semantic analysis and stack 
-* virtual machine's execution. Specially, this program gives a 
-* stack type virtual machine  that can explain the execution of 
-* the similar-c language, and gives the virtual machine 
-* instruction set.Like-c Compiler is be comprised of  kernel part
-* and IDE user interface , where Compiler part using c++ language
-* realization, IDE using c# language realization¡£
+Purpose:
+This project is distributed in the hope that it will be useful for people who want to learn about the compiler's work, such as lexical analysis, grammatical analysis, semantic analysis, and the execution of a stack-based virtual machine.
+Specifically, this program provides a stack-based virtual machine that can interpret the execution of a C-like language, along with its instruction set.
+The program consists of two main components: the kernel part and the IDE user interface.
+The Compiler part is implemented using C++.
+The IDE is developed using C#.
 
-* The document structure is as follows:
-  program---The executable program.  make sure  you can have a 
-            fast scan of this program.where, the folder of DEMOS
-            have sameExample you can ues it  at begin.you can 
-            found same userful guide in "User Guide.pdf" in folder
-            of doc.
-  doc    ---two files about MSCT language and IDE usage¡£
-  src    ---source code of Compiler and IDE¡£
 
-* ÔÚÊ¹ÓÃ±¾³ÌĞòÖ®Ç°£¬ÇëÏÈÔÄ¶Á¹ØÓÚ±¾³ÌĞòµÄCPYYING
+Structure:
+app
+Contains the executable program, ensuring you can quickly scan through it.
+Highlights:
+The DEMOS folder contains some examples you can use at the beginning.
+Refer to the "User Guide.pdf" in the doc folder for some useful guides.
 
-* ±¾Èí¼şµÄÄ¿µÄÊÇ¶ÔÄÇĞ©¶Ô±àÒëÆ÷´Ê·¨·ÖÎö¡¢Óï·¨·ÖÎö¡¢ÓïÒå·ÖÎöÒÔ¼°Õ»
-* Ê½ĞéÄâ»úÖ´ĞĞ¹ı³Ì¸ĞĞËÈ¤µÄÈËÌá¹©°ïÖú»òÕß½è¼ø¡£ÌØ±ğµÄ±¾³ÌĞò¸ø³öÁË
-* Ò»ÖÖÕ»Ê½ĞéÄâ»úÄÜ¹»½âÊÍµÄÖ´ĞĞÀàcÓïÑÔ£¬²¢¸ø³öÁË¸ÃĞéÄâ»úµÄÖ¸Áî¡£
-* ±¾³ÌĞòÓÉMSCTÀàcÓïÑÔCompiler²¿·ÖºÍIDEÓÃ»§½çÃæÁ½²¿·Ö×é³É£¬ÆäÖĞ
-* Compiler²¿·ÖÊ¹ÓÃC++ÓïÑÔÊµÏÖ£¬IDEÊ¹ÓÃC#ÓïÑÔÊµÏÖ¡£
+doc
+Contains two documents detailing the MSCT language and IDE usage.
 
-*¾ßÌåÎÄµµµÄ×éÖ¯½á¹¹ÈçÏÂ£º
- program---¿ÉÖ´ĞĞ³ÌĞò¡£·½±ãÄã¶Ô³ÌĞòµÄÁË½â£¬ÆäÖĞDEMOSÎÄ¼ş¼ĞÏÂÓĞ²¿·Ö
-           Àı×Ó£¬ÔÚÊ¹ÓÃÖ®Ç°ÇëÏÈ²é¿´docÎÄ¼ş¼ĞÏÂµÄUser Guide.pdfÎÄ¼ş¡£
- doc    ---¹ØÓÚMSCT±àÒëÓïÑÔµÄËµÃ÷ÒÔ¼°IDEµÄÊ¹ÓÃ¡£
- src    ---CompilerÒÔ¼°IDEµÄÈ«²¿Ô´´úÂë¡£
+src
+Contains the source code for both the Compiler and IDE.
+
+
+åœ¨ä½¿ç”¨æœ¬ç¨‹åºä¹‹å‰ï¼Œè¯·å…ˆé˜…è¯»å…³äºæœ¬ç¨‹åºçš„CPYYING
+
+ç›®çš„ï¼š
+æœ¬é¡¹ç›®æ˜¯å¯¹é‚£äº›å¯¹ç¼–è¯‘å™¨è¯æ³•åˆ†æã€è¯­æ³•åˆ†æã€è¯­ä¹‰åˆ†æä»¥åŠæ ˆå¼è™šæ‹Ÿæœºæ‰§è¡Œè¿‡ç¨‹æ„Ÿå…´è¶£çš„äººæä¾›å¸®åŠ©æˆ–è€…å€Ÿé‰´ã€‚ç‰¹åˆ«çš„æœ¬ç¨‹åºç»™å‡ºäº†ä¸€ç§æ ˆå¼è™šæ‹Ÿæœºèƒ½å¤Ÿè§£é‡Šçš„æ‰§è¡Œç±»cè¯­è¨€ï¼Œå¹¶ç»™å‡ºäº†è¯¥è™šæ‹Ÿæœºçš„æŒ‡ä»¤ã€‚
+æœ¬ç¨‹åºç”±MSCTç±»cè¯­è¨€Compileréƒ¨åˆ†å’ŒIDEç”¨æˆ·ç•Œé¢ä¸¤éƒ¨åˆ†ç»„æˆï¼Œå…¶ä¸­
+Compileréƒ¨åˆ†ä½¿ç”¨C++è¯­è¨€å®ç°ï¼ŒIDEä½¿ç”¨C#è¯­è¨€å®ç°ã€‚
+
+é¡¹ç›®ç»“æ„å¦‚ä¸‹ï¼š
+ app ---å¯æ‰§è¡Œç¨‹åºã€‚æ–¹ä¾¿ä½ å¯¹ç¨‹åºçš„äº†è§£ï¼Œå…¶ä¸­DEMOSæ–‡ä»¶å¤¹ä¸‹æœ‰éƒ¨åˆ†ä¾‹å­ï¼Œåœ¨ä½¿ç”¨ä¹‹å‰è¯·å…ˆæŸ¥çœ‹docæ–‡ä»¶å¤¹ä¸‹çš„User Guide.pdfæ–‡ä»¶ã€‚
+ doc ---å…³äºMSCTç¼–è¯‘è¯­è¨€çš„è¯´æ˜ä»¥åŠIDEçš„ä½¿ç”¨ã€‚
+ src ---Compilerä»¥åŠIDEçš„å…¨éƒ¨æºä»£ç ã€‚
