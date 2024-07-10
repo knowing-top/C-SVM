@@ -1,0 +1,34 @@
+* Before use this  program, please read  the program' CPYYING first.
+
+* This program is distributed in the hope that it will be useful
+* for pepole who want to konw the  compiler's work,such as Lex-
+* ical analysis,grammatical analysis,semantic analysis and stack 
+* virtual machine's execution. Specially, this program gives a 
+* stack type virtual machine  that can explain the execution of 
+* the similar-c language, and gives the virtual machine 
+* instruction set.Like-c Compiler is be comprised of  kernel part
+* and IDE user interface , where Compiler part using c++ language
+* realization, IDE using c# language realization。
+
+* The document structure is as follows:
+  program---The executable program.  make sure  you can have a 
+            fast scan of this program.where, the folder of DEMOS
+            have sameExample you can ues it  at begin.you can 
+            found same userful guide in "User Guide.pdf" in folder
+            of doc.
+  doc    ---two files about MSCT language and IDE usage。
+  src    ---source code of Compiler and IDE。
+
+* 在使用本程序之前，请先阅读关于本程序的CPYYING
+
+* 本软件的目的是对那些对编译器词法分析、语法分析、语义分析以及栈
+* 式虚拟机执行过程感兴趣的人提供帮助或者借鉴。特别的本程序给出了
+* 一种栈式虚拟机能够解释的执行类c语言，并给出了该虚拟机的指令。
+* 本程序由MSCT类c语言Compiler部分和IDE用户界面两部分组成，其中
+* Compiler部分使用C++语言实现，IDE使用C#语言实现。
+
+*具体文档的组织结构如下：
+ program---可执行程序。方便你对程序的了解，其中DEMOS文件夹下有部分
+           例子，在使用之前请先查看doc文件夹下的User Guide.pdf文件。
+ doc    ---关于MSCT编译语言的说明以及IDE的使用。
+ src    ---Compiler以及IDE的全部源代码。

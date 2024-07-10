@@ -1,0 +1,32 @@
+{  
+   /*error:'for' miss condition symbol'('and finish flag'}'.
+    */
+
+   /*function:calculation factorial*/	
+   /*describe:
+     1.input number;
+     2.Caculate sum=1!+2!+...+n! 
+     3 write sum;		
+   */
+    int number
+    int sum=0;
+    int temp=1;
+    read number;
+    for int a=1;a<=number;a=a+1)
+    {
+     temp=temp*a;
+     sum=sum+temp;
+    
+    write sum;
+}
+
+
+
+
+
+
+
+
+
+
+

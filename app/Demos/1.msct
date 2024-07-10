@@ -1,0 +1,30 @@
+{
+   /*right:two ID's 'b' has same name,whereas 
+     they has different action scope
+    */
+
+   /*function:calculation factorial*/	
+   /*describe:
+     1.input number;
+     2.Caculate sum=1!+2!+...+n! 
+     3 write sum;		
+   */
+    int number;
+    int a;
+    int b;
+    int sum=0;
+    int temp=1;
+    read number;
+    for(a=1;a<=number;a=a+1)
+    {
+     int b;
+     temp=temp*a;
+     sum=sum+temp;
+    }
+    write sum;
+}
+
+
+
+
+

@@ -1,0 +1,2 @@
+[autorun]
+OPEN=\Debug\Compile.exe /AUTORUN

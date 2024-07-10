@@ -1,0 +1,11 @@
+{   int n;
+    int s=0;
+    int t=1;
+    read n;
+    for(int a=1;a<=n;a=a+1)
+    {
+     t=t*a;
+     s=s+t;
+    }
+    write s
+}
