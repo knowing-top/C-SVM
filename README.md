@@ -1,6 +1,6 @@
 <p align="center">
     <h1 align="center">
-        <a href="https://github.com/knowing-top/MSCT">MSCT</a>
+        <a href="https://github.com/knowing-top/MSCT">C-SVM</a>
             <div class="center-text">
                 An introductory instance for compiler design.
             <br>
@@ -26,14 +26,14 @@ The DEMOS folder contains some examples you can use at the beginning.
 Refer to the "User Guide.pdf" in the doc folder for some useful guides.
 
 ### doc
-Contains two documents detailing the MSCT language and IDE usage.
+Contains two documents detailing the C-SVM language and IDE usage.
 
 ### src
 Contains the source code for both the Compiler and IDE.
 
 # Top Software Awards
 ### [Softoxi.com](https://softoxi.com)
-### 2013
+
 After carefully testing your product, Softoxi.com Editor Team decided to award your product with the Top Software Awards.
 Softoxi.com Editor Team would also like to congratulate you for the high quality standards achieved by your software. We're glad to be able to promote and support such high-quality products in any way we can.
 To let your users know about this certification (and therefore about the fact that we consider your product to be a top one), you may display our awards or the conclusion of our review on your website:
